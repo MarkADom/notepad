@@ -7,16 +7,16 @@ The notepad project is a desktop application just like the notepad or text edito
 
 ## Project Description
  - Manu Bar
-  - New File
-  - Open File
-  - Save
-  - Save As...
-  - Exit
+    - New File
+    - Open File
+    - Save
+    - Save As...
+    - Exit
   
  - Edit
-  - Select All
-  - Copy
-  - Cut
-  - Paste
-  - Search
+    - Select All
+    - Copy
+    - Cut
+    - Paste
+    - Search
 ** (Project still under Construction) ** I'm improving the interface part with Javafx
