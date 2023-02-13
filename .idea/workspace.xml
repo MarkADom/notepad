@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33381dcf-8fe7-4e3f-9dea-042b5c17974f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/myproj/notepad/view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myproj/notepad/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myproj/notepad/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/myproj/notepad/view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/myproj/notepad/view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +23,18 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="3bdf29ba-6cb8-4780-828e-7e9d614b1c3d" />
+        <option name="url" value="git@github.com:MarkADom/notepad.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
