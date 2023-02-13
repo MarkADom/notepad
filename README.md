@@ -19,4 +19,7 @@ The notepad project is a desktop application just like the notepad or text edito
     - Cut
     - Paste
     - Search
-** (Project still under Construction) ** I'm improving the interface part with Javafx
+
+
+** (Project still under Construction) ** 
+I'm improving the interface part with Javafx
