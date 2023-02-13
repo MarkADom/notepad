@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.myproj.notepad.Application">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.myproj.notepad.Controller">
    <children>
       <Pane prefHeight="30.0" prefWidth="626.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
@@ -15,11 +15,11 @@
               <menus>
                 <Menu mnemonicParsing="false" text="File">
                   <items>
-                    <MenuItem fx:id="newFile" mnemonicParsing="false" text="New..." />
-                        <MenuItem fx:id="openFile" mnemonicParsing="false" text="Open..." />
-                        <MenuItem fx:id="saveFile" mnemonicParsing="false" text="Save" />
-                        <MenuItem fx:id="saveAsFile" mnemonicParsing="false" text="Save As..." />
-                        <MenuItem fx:id="exitApp" mnemonicParsing="false" text="Exit" />
+                    <MenuItem fx:id="newFile" mnemonicParsing="false" onAction="#newFile" text="New..." />
+                        <MenuItem fx:id="openFile" mnemonicParsing="false" onAction="#openFile" text="Open..." />
+                        <MenuItem fx:id="saveFile" mnemonicParsing="false" onAction="#saveFile" text="Save" />
+                        <MenuItem fx:id="saveAsFile" mnemonicParsing="false" onAction="#saveAsFile" text="Save As..." />
+                        <MenuItem fx:id="exitApp" mnemonicParsing="false" onAction="#exitApp" text="Exit" />
                   </items>
                 </Menu>
                 <Menu mnemonicParsing="false" text="Edit">
@@ -39,6 +39,6 @@
             </MenuBar>
          </children>
       </Pane>
-      <TextArea fx:id="TextArea" layoutX="-6.0" layoutY="30.0" prefHeight="130.0" prefWidth="626.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0" />
+      <TextArea fx:id="textpane" layoutX="-6.0" layoutY="30.0" prefHeight="130.0" prefWidth="626.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0" />
    </children>
 </AnchorPane>

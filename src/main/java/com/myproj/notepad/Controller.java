@@ -33,6 +33,7 @@ public class Controller implements Initializable {
         file = null;
     }
 
+    @FXML
     protected void openFile(ActionEvent event) {
         file = fileChooser.showOpenDialog(null);
         if (file != null) {
