@@ -6,6 +6,7 @@
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.myproj.notepad.Controller">
    <children>
@@ -24,6 +25,7 @@
                 </Menu>
                 <Menu mnemonicParsing="false" text="Edit">
                   <items>
+                        <MenuItem mnemonicParsing="false" text="Select All" />
                     <MenuItem mnemonicParsing="false" text="Copy" />
                         <MenuItem mnemonicParsing="false" text="Cut" />
                         <MenuItem mnemonicParsing="false" text="Paste" />
@@ -39,6 +41,9 @@
             </MenuBar>
          </children>
       </Pane>
-      <TextArea fx:id="textpane" layoutX="-6.0" layoutY="30.0" prefHeight="130.0" prefWidth="626.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0" />
+      <TextArea fx:id="textpane" layoutX="-6.0" layoutY="30.0" prefHeight="130.0" prefWidth="626.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextArea>
    </children>
 </AnchorPane>
