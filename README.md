@@ -9,7 +9,7 @@ The notepad project is a desktop application just like the notepad or text edito
 
 ## Project Description
 
-TextArea to write and edit text
+
 
  - Manu Bar
     - New File
@@ -24,5 +24,9 @@ TextArea to write and edit text
     - Cut
     - Paste
     - Search
+    
+ - TextArea 
+    - Write and edit text.
+    - right mouse edit options
 
 ** (Project still under Construction) ** 
