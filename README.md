@@ -8,6 +8,9 @@ The notepad project is a desktop application just like the notepad or text edito
 ![notepad](https://user-images.githubusercontent.com/67132358/218599534-f87670f7-9a94-4a9b-a93b-d7765f3a863c.png)
 
 ## Project Description
+
+TextArea to write and edit text
+
  - Manu Bar
     - New File
     - Open File
